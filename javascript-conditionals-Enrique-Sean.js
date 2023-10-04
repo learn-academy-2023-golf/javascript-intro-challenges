@@ -56,3 +56,39 @@ if (num1 > num2) {
     console.log("The numbers are the same")
 }
 // Write a statement that takes a variable of a number and logs whether the number is odd, even, or zero.
+let num3 = 3
+if (num3 == 0) {
+    console.log("Zero")
+} else if (num3%2 == 0) {
+    console.log("Even")
+} else if (num3%2 == 1) {
+    console.log("Odd")
+}
+
+// Write a conditional statement for the following prompts.
+
+// Write a statement that takes a variable of a grade percentage and logs the letter grade for that percentage, if the grade is 100% log "perfect score", if the grade is zero log "no grade available."
+let letterGrade = 57
+if (letterGrade == 100) {
+    console.log("perfect score")
+} else if (letterGrade == 0) {
+    console.log("no grade available")
+} else {
+    console.log(`${letterGrade}`)
+}
+
+
+// Write a statement that takes a variable of a boolean, number, or string data type and logs the data type of the variable. HINT: Check out the JavaScript typeof operator.
+let statementVariable = 3
+console.log(typeof `${statementVariable}`)
+
+
+// Create a password checker using a single conditional statement. If a user inputs a password with 12 or more characters AND the password includes !, then log "That is a mighty strong password!" If the user’s password is 8 or more characters OR includes !, then log "That password is strong enough." Log "That is not a valid password." for every other input.
+let password = "123456"
+if (password.length >= 12 && password.includes("!")) {
+    console.log("That is a mighty strong password!")
+} else if (password.length >= 8 || password.includes("!")) {
+    console.log("That password is strong enough.")
+} else {
+    console.log("That is not a valid password.")
+}
