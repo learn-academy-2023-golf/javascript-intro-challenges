@@ -9,20 +9,48 @@
 // Does "LEARN"[0] strictly equal "l"?
 // Modify the code from the previous question to return true
 
+let num1 = 34 / 3;
+let num2 = 67 / 2;
 
-let num1 = 34/3
-let num2 = 67/2
-if (num1>num2){
-    console.log(`${num1} Incorrect ${num2}`)
+if (num1 > num2) {
+  console.log(`${num1} Incorrect ${num2}`);
 } else {
-    console.log(`${num2} correct ${num1}`)
+  console.log(`${num2} correct ${num1}`);
 }
-console.log(5 == "5")
-console.log(5 === "5")
-console.log(!3 === 3)
-console.log("LEARN".length === 5 && "Student".length === 7)
-console.log("LEARN".length === 5 || "Student".length === 10)
-console.log("LEARN".includes("RN"))
-console.log("LEARN".includes("rn"))
-console.log("LEARN"[0] === "l")
-console.log("LEARN"[0] === "L")
+console.log(5 == "5");
+console.log(5 === "5");
+console.log(!3 === 3);
+console.log("LEARN".length === 5 && "Student".length === 7);
+console.log("LEARN".length === 5 || "Student".length === 10);
+console.log("LEARN".includes("RN"));
+console.log("LEARN".includes("rn"));
+console.log("LEARN"[0] === "l");
+console.log("LEARN"[0] === "L");
+
+let item = 750;
+
+if (item < 100) {
+  console.log(`${item} is in budget.`);
+} else {
+  console.log(`${item} is not in budget.`);
+}
+
+let hungry = "potato";
+
+if (hungry === "no") {
+  console.log("Keep coding!");
+} else if (hungry === "yes") {
+  console.log("eat food");
+} else {
+  console.log("I don't understand");
+}
+
+let trafficLight = "green";
+
+if (trafficLight === "green") {
+  console.log(`Traffic light is ${trafficLight}, GO!`);
+} else if ((trafficLight = "yellow")) {
+  console.log("Slow down");
+} else if ((trafficLight = "red")) {
+  console.log("Stop");
+}
