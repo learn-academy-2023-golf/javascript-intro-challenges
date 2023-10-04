@@ -45,12 +45,20 @@ console.log(theAnswer/2)
 console.log(theAnswer%3)
 
 // Write the code that will log the length of theQuestion.
+console.log(theQuestion.length)
 // Write the code that will log the length of theQuestion divided by 2.
+console.log(theQuestion.length/2)
 // Write the code that will log the length of theQuestion added to theAnswer.
+console.log(theQuestion.length + theAnswer.length)
 // Write the code that will log the index of the character "f" in the theQuestion.
+console.log(theQuestion.indexOf("f"))
 // Write the code that will log the index of the second comma in the theQuestion.
+//console.log(indexOf)
 // Write the code that will log the concatenation of the two variables.
 // Write the code that will log the character "l" from theQuestion.
+console.log(theQuestion[0])
 // Write the code that will extract "the universe" from theQuestion.
+console.log(theQuestion.slice(6,18))
 // Write the code that will extract "everything" from theQuestion.
+console.log(theQuestion.slice(24))
 // Write the code that will log the last character of theQuestion without manually counting the number of characters.
