@@ -12,22 +12,43 @@
 // }
 // Create a for loop that logs each even number from 1-20, and in the place of every odd number, returns the word "ODD".
 // Expected output: ODD, 2, ODD, 4, ODD, 6 ...etc
-for(let num=1; num <= 20; num++){
-    if(num % 2 === 0){
-        console.log(num)
-    }
-    else {
-        console.log("ODD")
-    }
-}
+// for(let num=1; num <= 20; num++){
+//     if(num % 2 === 0){
+//         console.log(num)
+//     }
+//     else {
+//         console.log("ODD")
+//     }
+//}
+
+// ** ALex Picking up
 
 // Consider this variable:
-
-// const nums = [3, 57, -9, 20, 67]
+ const nums = [3, 57, -9, 20, 67]
 // Create the code that will log the largest number from the array.
+// var largest = nums[0]
+// for(let i=0; i<nums.length; i++){
+//     if(nums[i]>largest){
+//         largest = nums[i]
+//     } 
+// } 
+// console.log(largest)
 // Create the code that will log the smallest number from the array.
+// var smallest = nums[0]
+// for(let i=0; i<nums.length; i++){
+//     if(nums[i]<smallest){
+//         smallest =nums[i]
+//     }
+// }
+// console.log(smallest)
+
 // Create the code that will log the remainder of each number when divided by 2.
 // Expected output: 1, 1, -1, 0, 1
+// for(let i=0; i<nums.length; i++){
+//     console.log(nums[i]%2)
+// }
+
+
 // Consider this variable:
 
 // const myString = "learn student"
