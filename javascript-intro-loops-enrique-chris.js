@@ -78,7 +78,10 @@
 // Consider this variable:
 
 // const nums = [3, 57, -9, 20, 67]
+
 // Create the code that will log the largest number from the array.
+const nums = [3, 57, -9, 20, 67]
+
 // Create the code that will log the smallest number from the array.
 // Create the code that will log the remainder of each number when divided by 2.
 // Expected output: 1, 1, -1, 0, 1
