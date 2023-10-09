@@ -151,3 +151,50 @@ const yelling = (string) => {
 }
 
 console.log(yelling("outta time"))
+
+
+// 🏔 Stretch Goals
+// The World Translator
+
+// Write a function named helloWorld that takes a language code (e.g. "es", "de", "en") as an argument and returns "Hello World!" in the given language. Ensure you function works for at least 5 languages.
+
+// Have your function default to returning English.
+
+//create a function called helloWorld
+//input: a string
+//output: hello world in a different language
+// conditional if statement
+//compare the string to list of languages with else if 
+
+// const helloWorld = (lanCode) => {
+//     if(lanCode === "es") {
+//         return "¡Hola Mundo!"
+//     } else if(lanCode === "de") {
+//         return "Hallo Welt!" {
+//             else if(lanCode === "en") {
+//          return "Hello World!"
+//             }
+//         }
+    
+//     }
+// }
+// The Pluralizer
+
+// Write a function named pluralizer that takes a number and a singular noun as arguments and returns the number and pluralized form of the noun, if necessary.
+
+// Enhance your function so it can handle a few collective nouns like "sheep", "goose", "child", "person" and "species".
+
+// pluralizer(5, "cat")
+// // output: "5 cats"
+
+// pluralizer(1, "dog")
+// // output: "1 dog"
+
+// pluralizer(9, "dog")
+// // output: "9 dogs"
+
+// pluralizer(1, "people")
+// // output: "1 person"
+
+// pluralizer(3, "people")
+// // output: "3 people"
