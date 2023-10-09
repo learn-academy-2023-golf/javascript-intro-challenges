@@ -66,20 +66,56 @@
   //- output: number1 is evenly divisible by number2 
   //- log "10 is evenly divisible by 5"
 
-  const divisibleBy = (number1, number2) => {
-    if(number1 % number2 === 0) {
-      return `${number1} is evenly divisible by ${number2}`
-    }
-  }
+  // const divisibleBy = (number1, number2) => {
+  //   if(number1 % number2 === 0) {
+  //     return `${number1} is evenly divisible by ${number2}`
+  //   }
+  // }
   
-  console.log(divisibleBy(10, 5))
-  // output:
+  // console.log(divisibleBy(10, 5))
+  // // output:
   
 
 
 // Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
+ // Pseudocode
+   // - create a function named assignGrade
+   // - input: scoreNum
+   // - output: letter grade for the score
+      // - conditional statements for each letter grade that corresponds for the number
+
+      // const assignGrade = (scoreNum) => {
+      //   if(scoreNum === 4){
+      //     return "A"
+      //   } else if(scoreNum === 3){
+      //     return "B"
+      //   } else if(scoreNum === 2){
+      //     return "C"
+      //   } else if(scoreNum === 1){
+      //     return "D"
+      //   } else {
+      //     return "F"
+      //   }
+      // }
+
+      // console.log(assignGrade(2)) // C
 
 // Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
+
+// Pseudocode:
+ // - create a function named isLonger
+ // - input: string1, string2
+ // - output: string with most characters (use .length)
+
+ const isLonger = (string1, string2) => {
+  if(string1.length > string2.length){
+    return string1
+  } else{
+    return string2
+  }
+}
+console.log(isLonger("Patricia","Franz"))
+
 
 // Write a function named greaterNum that takes two numbers as arguments and returns whichever number is the greater (higher) number.
 
