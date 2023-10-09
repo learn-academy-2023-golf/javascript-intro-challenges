@@ -41,7 +41,41 @@
 
 // Write a function named multiply that takes two numbers as arguments and returns the result of the numbers multiplied together.
 
+// Pseudocode
+  //- create function named multiply
+  //- input: number1, number2
+  //- output: product of number1 and number2
+
+
+  // const multiply = (number1, number2) => {
+  //     return number1 * number2
+  //   }
+    
+  //   console.log(multiply(3, 5))
+  //   // output: 15
+  //   console.log(multiply(5, 8))
+  //   // output: 40
+  //   //   }
+
+
 // Write a function named divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
+
+// Pseudocode
+  //- create function named divisibleBy 
+  //- input: two numbers 
+  //- output: number1 is evenly divisible by number2 
+  //- log "10 is evenly divisible by 5"
+
+  const divisibleBy = (number1, number2) => {
+    if(number1 % number2 === 0) {
+      return `${number1} is evenly divisible by ${number2}`
+    }
+  }
+  
+  console.log(divisibleBy(10, 5))
+  // output:
+  
+
 
 // Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
 
